@@ -113,7 +113,7 @@ public class CashwiseSellerTest {
     }
 
     @Test
-    public void getSeller() throws JsonProcessingException {
+    public void getSeller() {
         String path = "/api/myaccount/sellers/1853";
         APIRunner.runGet(path);
         System.out.println("seller's name :" + APIRunner.getCustomResponses().getSeller_name());
