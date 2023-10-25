@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginTestSteps {
+public class StudyMateLoginSteps {
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
 
